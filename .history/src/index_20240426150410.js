@@ -3,8 +3,8 @@ const { ApolloServer } = require('apollo-server');
 const typeDefs = require('./schema/schema');
 const resolvers = require('./resolvers')
 const dataSources = require('./datasources')
-const config	= require('./config/config.json')
-const version = config.appVersion
+const globalVars =require('./global/global-vars.json')
+const version = globalVars.appVersion
 
 
 

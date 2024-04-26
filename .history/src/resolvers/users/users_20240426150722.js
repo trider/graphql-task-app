@@ -22,6 +22,9 @@ const tasks = {
 
 	},
  Mutation: {
+  login: async (parent, args, { dataSources }, context) => {
+   return args
+  },
   createTask: async (parent, args, { dataSources }, context) => {
    return args
   },

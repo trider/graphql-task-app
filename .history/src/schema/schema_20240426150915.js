@@ -13,11 +13,9 @@ const typeDefs = gql`
   
 
   type Query {
-    # Users
-    getUsers(payload:JSON): JSON
-    getUser(payload:JSON): JSON
+    getMembers(payload:JSON): JSON
+    getMember(payload:JSON): JSON
     
-    # Tasks
     getTasks(payload:JSON): JSON
     getTask(payload:JSON): JSON
   }
@@ -25,13 +23,12 @@ const typeDefs = gql`
 
 
   type Mutation {
-    # Users
     login(payload:JSON): JSON
-    createUser(payload:JSON): JSON
-    updateUser(payload:JSON): JSON
-    deleteUser(payload:JSON): JSON
+    createMember(payload:JSON): JSON
+    updateMember(payload:JSON): JSON
+    deleteMember(payload:JSON): JSON
 
-    # Tasks
+
     createTask(payload:JSON): JSON
     updateTask(payload:JSON): JSON
     deleteTask(payload:JSON): JSON
