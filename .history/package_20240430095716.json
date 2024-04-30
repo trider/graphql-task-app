@@ -1,0 +1,19 @@
+{
+  "name": "graphql-task-app",
+  "version": "1.0.0",
+  "description": "Task App Api",
+  "main": "index.js",
+  "bin": {
+    "api_refactored": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "mongodb": "^3.6.0",
+    "@apollo/server": "^4.10.4",
+    "graphql": "^16.8.1"
+  }
+}
