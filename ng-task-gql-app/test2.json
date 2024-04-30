@@ -1,0 +1,17 @@
+{
+ "data": {
+  "runOperatorCommand": {
+   "error": {
+    "parsing_input_error": [
+     {
+      "loc": [
+       "account"
+      ],
+      "msg": "Not a valid ObjectId",
+      "type": "value_error"
+     }
+    ]
+   }
+  }
+ }
+}

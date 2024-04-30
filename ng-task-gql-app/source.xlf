@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/alert/alert.ts</context>
+          <context context-type="linenumber">76,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION" equiv-text="* If `true`"/> of <x id="INTERPOLATION_1" equiv-text="ith carousel us"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">150,157</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">195,198</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">245,247</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">264</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">280</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">299,301</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">312,313</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">328</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">339,340</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">351</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="Input() textTyp"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/progressbar/progressbar.ts</context>
+          <context context-type="linenumber">59,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">132,133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">151,154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">170,171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">184,185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">214,217</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">232,234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">254,257</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">274</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">289</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/toast/toast.ts</context>
+          <context context-type="linenumber">105,108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4e8cb565f2420eccd2232f960a5faa3b010d74f4" datatype="html">
+        <source>סכומים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3e3bacc06978cc2dba2aee75597dd4c3693baebc" datatype="html">
+        <source>יתרה נטו הכוללת</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="389a8f321e934ef65ed45129ba8caecaff2e9154" datatype="html">
+        <source>היסטוריית עסקאות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2006b025ab18b574e9da264323b4ee3f84e8243b" datatype="html">
+        <source>יתרה זמינה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="75eba72cd9f4be0b6edef525ffac88272809235f" datatype="html">
+        <source>מצב הלוואה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="845dbb1c808a5dd1fefadbe9978c532feebfc671" datatype="html">
+        <source>סטטוס</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7539b40ca70a31bdbed85b74655e5c3d19e5f9b1" datatype="html">
+        <source>הלוואות פעילות לעומת לא פעילות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cabc70c3502cc3ad3882455f96e84f892b2de421" datatype="html">
+        <source>פעיל מול לא פעיל</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3adf2c6e0bd9a8891a1a14c8d1a2e35d48ea7f26" datatype="html">
+        <source>יתרת קרן הלוואה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f30ed867e8b2f2c6494554e02600047dbe277fd0" datatype="html">
+        <source>יתרות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c96e629c7d3aec3a0a9e8f3edb3ac06b7458d57e" datatype="html">
+        <source>מוצר לפי סוג</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="048922e2f6e3fae78758f4cda6184eb2851d24b5" datatype="html">
+        <source>מוצר לפי מנוי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d43746edc4491d609d536a1d0f74bdbf18b5c869" datatype="html">
+        <source>חלוקת כספים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="283c607109e04f22d04ee059d90d6083becc6e89" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{title}}"/>
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/charts/chart-carousel/chart-carousel.component.html</context>
+          <context context-type="linenumber">144,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6b51acca84d10718e87062b50056818989b05128" datatype="html">
+        <source>ארנק</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-account-tabs/dialog-controls-member-account-tabs.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-services/dialog-controls-member-profile-services.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-services/member-controls-account-profile-services.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-accounts/tabs-member-accounts.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-account-products/tabs-operator-account-products.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">191</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7bf9d41dbe80d25d21d022ea5243b1e187b31d4c" datatype="html">
+        <source>הלוואות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-account-tabs/dialog-controls-member-account-tabs.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-accounts/tabs-member-accounts.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-account-products/tabs-operator-account-products.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f8aba9ad509bf729f94bf5132d2dc42a6167a873" datatype="html">
+        <source>חשבוניות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-account-tabs/dialog-controls-member-account-tabs.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-services/dialog-controls-member-profile-services.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-services/member-controls-account-profile-services.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-accounts/tabs-member-accounts.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-account-products/tabs-operator-account-products.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="42491866fcf66808c98a5912056bc6ffb0935dc3" datatype="html">
+        <source>השקעות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-account-tabs/dialog-controls-member-account-tabs.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-accounts/tabs-member-accounts.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-account-products/tabs-operator-account-products.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dbe18249579c0cb900526cd50d4c8351c750a427" datatype="html">
+        <source>פרופיל חשבון</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c83b838d845690bcb897f775f53b5316535306dc" datatype="html">
+        <source>First Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="47d6590e67548405ce57d5172aa25f5442c64ca9" datatype="html">
+        <source>שם פרטי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6ef0619a37140118b9e640c6cc36ee4e9fb4372a" datatype="html">
+        <source>Company</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f5809fe5c9d9a92d99a079daaab50b0b00479b7" datatype="html">
+        <source>חברה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4fcb6dbd1b656de4f606e061af0ed606d3fdc547" datatype="html">
+        <source>User Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d5046e5acd05681204b78c050a8df5728c785c90" datatype="html">
+        <source>שם משתמש</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="166b2cc65003221ff5f3ec05d5baca41e6821396" datatype="html">
+        <source>Last Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="627923e2da6dab7f28ed22ab761338eba2d2c98a" datatype="html">
+        <source>שם משפחה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
+        <source>Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f50176d0c0f52925d353342f381aa12dd7395961" datatype="html">
+        <source>דוא&quot;ל</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
+        <source>Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65efdd01a457c170db3bdd65fafadafc678b86d0" datatype="html">
+        <source>סיסמה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">166</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">166</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f8b2bb476981727ab34ed40fde1218361f92c45" datatype="html">
+        <source>Details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5eedde0478784188519a48776688d9f8a6117d34" datatype="html">
+        <source>פרטים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">178</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28f86ffd419b869711aa13f5e5ff54be6d70731c" datatype="html">
+        <source>Edit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3a8c4987c81e29e878ee21e57c38bcbed8bb22d" datatype="html">
+        <source>ערוך</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4d5b3dc4cf19f46aafe3c915b1b3d827b68e09a" datatype="html">
+        <source>InState Profile</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">189</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5c04155507917f8827c0b880a7dbb4e5bb01db2c" datatype="html">
+        <source>פרופיל InState</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f54124291a634240102017456e1c83b64e02d2d9" datatype="html">
+        <source>CRM Profile</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">193</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="369fbf483b30ba4b5ccf5d0b10d416da0681f545" datatype="html">
+        <source>פרופיל CRM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/dialog-controls/dialog-controls-member-profile-details/dialog-controls-member-profile-details.component.html</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile-details/member-controls-account-profile-details.component.html</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3e03c7d00619666db150260c4319a31c40ec7c59" datatype="html">
+        <source>Recent Events</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-activities/member-controls-account-activities.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/activities/activities.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="31e3beb3f5a7e7275708842ba5de8d7d4a5f947c" datatype="html">
+        <source>אירועים אחרונים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-activities/member-controls-account-activities.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/activities/activities.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="942b73199931ee1568f40586e3259a9b928c76ce" datatype="html">
+        <source>פעולות ופעילויות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-activities/member-controls-account-activities.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/operator/operator-dashboards/operator-dashboard/operator-dashboard.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af88c1e95a1d16d3cdbb7210981e0bfb6dc1d137" datatype="html">
+        <source>Events</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-activities/member-controls-account-activities.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="604454412621c52f6dc1a551015f4f83cc5bd843" datatype="html">
+        <source>אירועים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-activities/member-controls-account-activities.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="586a5fd72602b5b14ec0c55f84814de47bb21e3a" datatype="html">
+        <source>Tasks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-activities/member-controls-account-activities.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="646594ce8dcc61abe90f04a16cf2f0cbc7486f28" datatype="html">
+        <source>פעולות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-activities/member-controls-account-activities.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8502c13aca172810aa5e3614edbb5d6f01be0431" datatype="html">
+        <source>Processes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-activities/member-controls-account-activities.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="04ee12b4632ae55a116cf066b8c6f9cb5629ceb4" datatype="html">
+        <source>תהליכים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-activities/member-controls-account-activities.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="98ab2b475e34759ae69ec28734c8a398f95986c1" datatype="html">
+        <source>My Products and Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile/member-controls-account-profile.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0866436ef1773bc08b1c3ef93c766d3045e878a4" datatype="html">
+        <source>המוצרים והשירותים שלי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/member-controls/member-controls-account-profile/member-controls-account-profile.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52604375f82f6c320d19a08826047706cab3c03d" datatype="html">
+        <source>Tenant: Yahad</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/operator-profile-control/operator-profile-control.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/operator-profile-control/operator-profile-control.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5e672b9c30bfbb4fff578fd3e83383af6315a46e" datatype="html">
+        <source>יחד</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/operator-profile-control/operator-profile-control.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/operator-profile-control/operator-profile-control.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="89de16eb7709706d96a05c4b5ce8decd96fa29c9" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Admin: <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/operator-profile-control/operator-profile-control.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="165b06a5f402743cb448a2ea4e2f4be8de4de0f4" datatype="html">
+        <source>מנהל: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/operator-profile-control/operator-profile-control.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8a51ce5e79af0b1ce56bdb995a311d06829c2aee" datatype="html">
+        <source>Select Tenant</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/operator-profile-control/operator-profile-control.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bccc6c0be117e96494a3bfd9e88fd3e182ae27a0" datatype="html">
+        <source>בחר אופרטור</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/operator-profile-control/operator-profile-control.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="024cdb2814b0cb3f4ced148f1a0b9854447cb214" datatype="html">
+        <source>Change</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/operator-profile-control/operator-profile-control.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ade74e75a232419b4061461cd0db43dde4e644f5" datatype="html">
+        <source>שנה מפעיל</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/controls/operator-controls/operator-profile-control/operator-profile-control.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c9d96d303747dbb1783ea4656681f48b9537196" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{row.name}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-member-dashboard/dashboards-member-dashboard.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-operator-dashboard/dashboards-operator-dashboard.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e7a40195c5ad551c76bf44f20b933a779a2e8652" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{row.nameHE}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-member-dashboard/dashboards-member-dashboard.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-operator-dashboard/dashboards-operator-dashboard.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e3a4d412e91e0ee4ca493d89dd00c3a4b6d5445d" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{row.text}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-member-dashboard/dashboards-member-dashboard.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-operator-dashboard/dashboards-operator-dashboard.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bce1709d56f4bc6db31261cae5a055760de7c58b" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{row.textHE}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-member-dashboard/dashboards-member-dashboard.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-operator-dashboard/dashboards-operator-dashboard.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f5de87da865ce1d768e328d5c12e225954053d5" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{child.name}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-member-dashboard/dashboards-member-dashboard.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-operator-dashboard/dashboards-operator-dashboard.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="988e4b93177c1b064f8f3ee6ac3eb51b41487ccf" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{child.nameHE}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-member-dashboard/dashboards-member-dashboard.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboards/dashboards-operator-dashboard/dashboards-operator-dashboard.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1322cecb75f12dc6f7b760dd213f41c5da11bdee" datatype="html">
+        <source>אג&quot;ח השתתפות (P-Notes)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-banking-investments/tabs-member-banking-investments.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6768859f5c7cfd6d20cd236e1c32b5d55cb299b4" datatype="html">
+        <source>אג&quot;ח מובנות (S-Notes)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-banking-investments/tabs-member-banking-investments.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3e9f1b9b67e85003cee9a17061a399da1874a68" datatype="html">
+        <source>איגרות חוב של קרנות (Fund Units)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-banking-investments/tabs-member-banking-investments.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02f20117b02f6917e2b08c9308fc36c42580eef4" datatype="html">
+        <source>יתרות חשבון</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-banking-loans-loan-transactions/tabs-member-banking-loans-loan-transactions.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="003e0c447159800c23ddcda063668504d66d4700" datatype="html">
+        <source>עסקאות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-banking-loans-loan-transactions/tabs-member-banking-loans-loan-transactions.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-banking-wallet/tabs-member-banking-wallet.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f648f0b9868e40538bfe139c8ab5ee5ed9cee021" datatype="html">
+        <source>מועד תשלומים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-banking-loans-loan-transactions/tabs-member-banking-loans-loan-transactions.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0ac894bb0f9f07a755a3bb30640cc4a137c9237b" datatype="html">
+        <source>תשואה צפויה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-member/tabs-member-banking-wallet/tabs-member-banking-wallet.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5caeb0d48709716662724846e7c6cc9590883d7c" datatype="html">
+        <source>ארנקים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-account-products/tabs-operator-account-products.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16f077c7c6cff58121132cc5694f9b96cdc5cd0a" datatype="html">
+        <source>מוצרי ארנק</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-account-products/tabs-operator-account-products.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8911faa6741e32fab542febb9f1b1106c3248c37" datatype="html">
+        <source>חשבונות ארנק</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-account-products/tabs-operator-account-products.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="974f6f2aefd248b49ce223cd43a61c5a2da8aca0" datatype="html">
+        <source>מוצרי חשבונית</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-account-products/tabs-operator-account-products.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="01a7292f36c6b3abe1460c744d93159a7cc42da4" datatype="html">
+        <source>חשבונות חשבונית</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-account-products/tabs-operator-account-products.component.html</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="308b4f391736f8b9f8aa3ae890020a6cb5dd159a" datatype="html">
+        <source>מוצרים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-account-products/tabs-operator-account-products.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="270380ed299bb5d6aa2189c1167375c39844aa45" datatype="html">
+        <source>חשבונות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-account-products/tabs-operator-account-products.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">187</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1a000448a32ed53280c539ca3ec5387d690d1908" datatype="html">
+        <source>ספר חשבונות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-accounts-accounting/tabs-operator-accounts-accounting.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="78e013cb544f6cc5da6dff2017d51995f25128f0" datatype="html">
+        <source>טבלת חשבונות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-accounts-accounting/tabs-operator-accounts-accounting.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ae7b8e1832a5f67ad51153595293f296a7ff29e" datatype="html">
+        <source>יתרות חשבונות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-accounts-accounting/tabs-operator-accounts-accounting.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9071526a534a73253c85cc6eee2948af3e1463fb" datatype="html">
+        <source>הצהרת הכנסה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-accounts-accounting/tabs-operator-accounts-accounting.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1a50df2cdfb85f7d1126c314eeea94854932343d" datatype="html">
+        <source>הצהרת מצב פיננסי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tabs/tabs-operator/tabs-operator-accounts-accounting/tabs-operator-accounts-accounting.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c1cbb241febffa91e923d1fde7a58021724953c" datatype="html">
+        <source>מאזן נטו</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="124e198f90c4bd9a6b4d6653e4053c48c653c19a" datatype="html">
+        <source>יתרה נותרת</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c49e1b957a315ec363177d96eee96f059c5848a" datatype="html">
+        <source>יתרה מושקעת</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d38cca974284c22bacbcd7172acda549e4c606a" datatype="html">
+        <source>יתרה נוכחית</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7291bf9daed08a945420812e7ea9816c38040fd5" datatype="html">
+        <source>איזון כולל</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cd8bb48f7bd2da1dca911fed71951f1a8e54b037" datatype="html">
+        <source>אשראי כולל</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ea4eb759f9dd12085b4cf291d4a867825b200418" datatype="html">
+        <source>סך הלוואות: פעיל</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0cfed5b65da9035abe98cdfba77ee4382aa9df17" datatype="html">
+        <source>סך הלוואות: לא פעיל</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4aa6a5669646f89be8e855e804842ced1f83f9e8" datatype="html">
+        <source>סך: פעיל</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cab55631bda7fee4db0bccf1e591ca3f201654f5" datatype="html">
+        <source>סך: לא פעיל</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e52be07d3c1c5f89f6a533246d926c4e6afc4974" datatype="html">
+        <source>יתרת הלוואה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b5aebc6d10881a0bb7a7efdf2b5670bd4a638a9f" datatype="html">
+        <source>יתרת חשבוניות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bcd8f7760efd8e539c684f6a3867ea95c3f170b4" datatype="html">
+        <source>שער ריבית</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d8aaef021883c7dcddd5e7a41733cb215f9651a0" datatype="html">
+        <source>סך הפקדות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68aba3956bd9747f1f2b5e846aea166c906902a6" datatype="html">
+        <source>סך החיובים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="77e16f36a9753206f02311771275b96b5d7be18c" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{title}}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/widgets/widget-cards/widget-cards.component.html</context>
+          <context context-type="linenumber">99,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f77008e3ed42ab7b561ac7b8c2e4dfa17535232" datatype="html">
+        <source>בית</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ffb4ae4b1a8c9d58ece1eb70092e5b128f1dd582" datatype="html">
+        <source>אדמיניסטרציה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ad60d6a16e531344ec74ac107039bd26c49c220c" datatype="html">
+        <source>בקשות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">186</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d21204d987af2ccfbb045364045afb1fa7502811" datatype="html">
+        <source>עמית</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">188</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e2f2d596b481354e5c3babde1f8e9d195dca5ac9" datatype="html">
+        <source>ניהול תבניות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">189</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="88f9f0df61c61643f50b777b6164b7b88323057d" datatype="html">
+        <source>אופרטור</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ff7158d9a5048386f0053c065063f014cf55d1c" datatype="html">
+        <source>חשבונית</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af9fdf0cc067c25872ec720f362a18508cb67767" datatype="html">
+        <source>אונבורדינג</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="102c95d51ff54a306b48fb8d831a717489ca9789" datatype="html">
+        <source>כרטיס בקשת תמיכה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8838ba0f9c4667c0e1a59d84f622297d70c3abaf" datatype="html">
+        <source>צור ארנק וממן אותו</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a1e46877190c84b532c4acc8bf7500326b771f81" datatype="html">
+        <source>הפקדת בארנק</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0483eec8435a185d4a79fc6c6a871ff9822d1a10" datatype="html">
+        <source>משיכת מארנק</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">198</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f9405e67f6a6f6cdb51897e83c9389ed693a342" datatype="html">
+        <source>בקש חשבונית חדשה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a512b62d70b848af1cf6ec3626972f7aca774028" datatype="html">
+        <source>החזר חשבונית</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5b90ecb9c77b93a87ca95bdbfc78aee5f35a39ee" datatype="html">
+        <source>התחל</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/shared/menus/mega-menu/mega-menu.component.html</context>
+          <context context-type="linenumber">201</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5e1df2e2d1b0741e7ee2416b904e3f2a0489f925" datatype="html">
+        <source>Enter your email address and password to access admin panel.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="69b6ac577a19acc39fc0c22342092f327fff2529" datatype="html">
+        <source>Email address</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d9e4cf9eeb85c466d32b89f8572e8cce0081eb1b" datatype="html">
+        <source>Enter your email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1dddc0df68f2b0b4b13ac303d434c03692f8e3da" datatype="html">
+        <source> Email is required. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">57,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0049a8ab6a470b87b5733a571d00cbcdf9a1893d" datatype="html">
+        <source> Email must be a valid Email Address </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">60,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="df4da340d016d0d3c0884be8ddc025a723c3fb34" datatype="html">
+        <source>Enter your password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49acfbb2a681e0e0474515851775f93915d35383" datatype="html">
+        <source> Password is required. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">78,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b99c1043b5a8a0309edc46c82193a327ff1a433b" datatype="html">
+        <source> Password length must be greater than 3. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">81,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3eb49d60bd859eb2d9d3a6d380cdf4e0b8252333" datatype="html">
+        <source>Remember me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8aaf74be0994dbf3f2b29d4ce25c3337d8d48628" datatype="html">
+        <source> Log In </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d50de37d911c6883cfc48abca726a5d4be8c1a6" datatype="html">
+        <source>Forgot your password? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;/auth/reset-password&apos;]&quot; class=&quot;text-white ms-1&quot;&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Reset<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">111,112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b8ea0c5187ae1df2e31062639b7ef4162e8b154" datatype="html">
+        <source>Don&apos;t have an account? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;/auth/register&apos;]&quot; class=&quot;text-white ms-1&quot;&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Sign Up<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">114,115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c5f628500803fe9deb94bf3bc17235bff2d2955e" datatype="html">
+        <source>Login as <x id="START_LINK" ctype="x-a" equiv-text="&lt;a *ngIf=&quot;role===&apos;Member&apos;&quot; [routerLink]=&quot;[&apos;/auth/login/operator&apos;]&quot;
+              class=&quot;text-white ms-1&quot;&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Operator<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="START_LINK_1" equiv-text="&lt;a *ngIf=&quot;role===&apos;Operator&apos;&quot; [routerLink]=&quot;[&apos;/auth/login/member&apos;]&quot; class=&quot;text-white ms-1&quot;&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Member<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/login/login.component.html</context>
+          <context context-type="linenumber">117,120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5e2376be53b42296f2c4a2b805186c68811e0479" datatype="html">
+        <source>Enter your email address and password to access admin panel.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register-account/register-account.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fd1f26f7c12981ffcfe9c2b7f7b002b454063030" datatype="html">
+        <source>Already have account? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;/auth/login/member&apos;]&quot; class=&quot;text-white ms-1&quot;&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Sign In<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register-account/register-account.component.html</context>
+          <context context-type="linenumber">115,116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="56ff4cd7ccc6f3d1fe5f6589cabca2365f173cd1" datatype="html">
+        <source>Don&apos;t have an account? Create your account, it takes less than a minute</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">22,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="484b0e541230d60ddb5fbd771a34a5c8d90e7a57" datatype="html">
+        <source>Full Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="620ba8f74432771cec99850c63742aa11e19be33" datatype="html">
+        <source>Enter your name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8e3a36baf866c7bce3008754d23f0d97dee6a839" datatype="html">
+        <source> Name is required. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">39,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="29e3cb9a5aec36160ab73a7538549611391917a0" datatype="html">
+        <source> Email is required. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">51,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fa68fe28d47a72350c2282f285e3162d5e72e025" datatype="html">
+        <source> Email must be a valid Email Address </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">54,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="999c98bc43a40a9be8414fbf364b5969bf6ad8a3" datatype="html">
+        <source> Password is required. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">72,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="137de6edf89dc46d26251a198d394d9073d74a3b" datatype="html">
+        <source> Password length must be greater than 3. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">75,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6fe67412d641414cb9bb08372e3d64d1750f2407" datatype="html">
+        <source>I accept <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+                                        href=&quot;javascript: void(0);&quot; class=&quot;text-dark&quot;&gt;"/>Terms and Conditions<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">85,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cda4e3eb22d699f739e0950adbbd4d5916cf4e37" datatype="html">
+        <source> Sign Up </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55e2e6f5f57d3b6156046bfa4deac2d51c48b851" datatype="html">
+        <source>Sign up using</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="32582826911ec8ba3ef1e06afc43c7133cd3d91d" datatype="html">
+        <source>Already have account? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;/auth/login/member&apos;]&quot;
+                            class=&quot;text-white ms-1&quot;&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Sign In<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/auth/account/register/register.component.html</context>
+          <context context-type="linenumber">125,127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f65253954b66e929a8b4d5ecaf61f9129f8cec64" datatype="html">
+        <source>Dashboard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5bbb2ee267dcdfb1537d16be671b5b14dd17330" datatype="html">
+        <source>Sales Report</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="89750469692340c540c7700f4e51058501da71b3" datatype="html">
+        <source>Export Report</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a43dd0a1bbcabf99c62a75ba68c1ee66a085e5c9" datatype="html">
+        <source>Profit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1bd5e17c9582661e20763a7634ef07881e33bbd7" datatype="html">
+        <source>Action</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">214</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="64d9deee451ed88faafb7878487b8494a206f5ac" datatype="html">
+        <source>Total Revenue</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a254b9d830201b16391f60490ea319860f1841a4" datatype="html">
+        <source>Total sales made today</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a433df097012c9142804980dd200f9e85e48e370" datatype="html">
+        <source>Traditional heading elements are designed to work best in the meat of your page content.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">70,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7fb1099e29660162f9154d5b2feee7743a423df6" datatype="html">
+        <source>Today</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fbf7ac0008332622d7380335be909c2d408303ac" datatype="html">
+        <source>Weekly</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5c7ea93dc8dff716e9531461e31bdb888e3e7f13" datatype="html">
+        <source>Monthly</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="96e078b52b0611c6e4034c384bd17d813921cfdd" datatype="html">
+        <source>Sales Analytics</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7acc8a5ed3965c9704bdade0341dfae50e645947" datatype="html">
+        <source>Edit Report</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc8a4c30c5df6d2549b6f914aaeeb670ac97a002" datatype="html">
+        <source>Top 5 Users Balances</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="994363f08f9fbfa3b3994ff7b35c6904fdff18d8" datatype="html">
+        <source>Profile</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="32072c7fb0469aaf82d256a59b3e0d6ecce973b9" datatype="html">
+        <source>Currency</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e69426bd97a606d8ae6026762858e6e7c86a1fd" datatype="html">
+        <source>Balance</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d6abd9d2ad80977887d8e69388c0ded0e39b6fb" datatype="html">
+        <source>Reserved in orders</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c422f01a09ab7708d2a5bc8f8a87b9219a58f20" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{record.name}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f127fb7c5b4db3ea05350037689be072634f4abe" datatype="html">
+        <source>Member Since 2017</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="086cef0f179abec7ddfc1bfe327f50158c79d103" datatype="html">
+        <source>Revenue History</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">203</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9d89f6b3fe2f1fb2f313ab028fc320789a4d933c" datatype="html">
+        <source>Marketplaces</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2f933b826a570836cab04f683970a2d22068458c" datatype="html">
+        <source>Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">211</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b8556a3d84ca426a76fadba4d870ea661958f4b" datatype="html">
+        <source>Payouts</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">212</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="81b97b8ea996ad1e4f9fca8415021850214884b1" datatype="html">
+        <source>Status</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">213</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fe159b8c3ab34a872f5a918dd5320a84f15f51ed" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{record.marketplaces}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-one/dashboard-one.component.html</context>
+          <context context-type="linenumber">220</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="45b7e02b5673c8533649fcc752a89b757a5fd4eb" datatype="html">
+        <source>דשבורד</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="79e204d500bd0af3448ba7260c993a3201bdd3d1" datatype="html">
+        <source>קונסולת עמית</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28a49fa3bc65fabd785fe37c85b074e5c924a338" datatype="html">
+        <source>ניהול לקוחות ומשתמשים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f8fc663c17f042ff82295bb21c67bf3d00a9bbb3" datatype="html">
+        <source>ניהול המוצרים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a2c6962c3a51a5316186a1176046a2a4af8e1fcb" datatype="html">
+        <source>דיווח</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="47f4d27cd331b20ce1cc5d40af04b5500ee5374c" datatype="html">
+        <source>מצב הרשת הבלוקצ׳יין DLT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c84f6f98a613c65ce06887ac5b0aff44c513fff" datatype="html">
+        <source>ניתוחים פיננסיים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3a79868f8db08c5d5ff09fad98d364e46cb54d86" datatype="html">
+        <source>דַּשְׁבּוֹרְד אנליטיקה של הרשת</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d5c6640ddad2a4e41feb84287b20ccb815353aa" datatype="html">
+        <source>ניתוח נכסים ברשת</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4955a8c3359e1fd9e653f041da4e79d9ec719bd7" datatype="html">
+        <source>ניתוח נכס ברשת</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8a5c0ace18fdce3cdd7fc980fe15a325b1607dc" datatype="html">
+        <source>P-Notes מימון ע״י</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b8cc22c0bb8e3209bae63f50907bc8247b534b2" datatype="html">
+        <source>שארית ביניים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f5db16236dd9e97b93886366b376fc55bb63f5ec" datatype="html">
+        <source>S-Notes מימון ע״י</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3a8b7b465d4720f656af1a954c339159ff472683" datatype="html">
+        <source>ניתוח מבנה מפלים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3b49872656005564f597ccc736d4d94371e4343d" datatype="html">
+        <source>עמדת הקרן הנאמנות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="959f7e4d61bdeef8089a99345911b102b92697d4" datatype="html">
+        <source>עמדת הקרן ההשקעות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="905f62bd075d6680902c5337343bf8434220ec14" datatype="html">
+        <source>מימון ע״י יחידות השתתפות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0605a0f7e370ff4769a6392a061dd2627c85e98d" datatype="html">
+        <source>עמדה שלי ברשת</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="21066a8c9a5e40418b400b0369ab61fa532dede9" datatype="html">
+        <source>בקשות אדמיניסטרטיבי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aea69378bf4f2f4d990e3efd6cf369de8e035cce" datatype="html">
+        <source>בקשות מימון</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1fdc17cc9f29e6e64734010faf514281b0c80af2" datatype="html">
+        <source>בקשות לחשבונית</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4c932487114c27a2ec9ad2699513d5b6b24c98be" datatype="html">
+        <source>בקשות להשקעה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3453cf4d2d2f549f3b420cf6e48ece074ad4ab7b" datatype="html">
+        <source>דשבורד חשבונות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2e73573fd74fb5936d957eaf08582e521cb037c5" datatype="html">
+        <source>הארנק שלי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e8f490a62fda03d6cf6e2099d45ec71b4460e4" datatype="html">
+        <source>ההלוואות שלי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="09fd7eddcc885d379140fcaee7f77e774833ed14" datatype="html">
+        <source>ההלווא שלי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="51a5b3851a278edd0ceb97c2c5cc3485a839c5bf" datatype="html">
+        <source>החשבונית שלי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6a54fd4d8a395082b669dc3106ed43004110fe44" datatype="html">
+        <source>ההשקעות שלי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3481e2b0c8488152a6a1673a1b1965914e66ca07" datatype="html">
+        <source>ההשקעה שלי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ad8a9db19a8a96e817f18232f62db22a40308699" datatype="html">
+        <source>דשבורד ניתוחים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="667ca9daa16239093ae0b202fec1ee29b62892ef" datatype="html">
+        <source>תיק אשראי של מלווה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="24b62af700ade3d7095e77e4a287038c1e2ece72" datatype="html">
+        <source>ניתוחים פיננסים של עסקים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="423dde36954243f9761a9546751aac9ce7dd98e3" datatype="html">
+        <source>פעולות ופעילות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="23b0e1025f9f3d3f48cc668397a88134adfb517b" datatype="html">
+        <source>פעילות בחשבון שלי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8337a658a03cc052c05433388026fe788b404a48" datatype="html">
+        <source>מסמכים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="714267b77a78128d4032d1251ad648bdcbe45679" datatype="html">
+        <source>התקשרויות</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6f014dc5228fea38d5937ae12f002c5e9bf6d855" datatype="html">
+        <source>יומן</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3eeab95fb64446114d2e86065cc76b09394face7" datatype="html">
+        <source>מוקד תמיכה</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c6f5d912bc65fac7ad7b61ef0c869710f4663309" datatype="html">
+        <source>פלטפורמת ניתוח</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="introductionHeader" datatype="html">
+        <source>עמדת הרשת שלי</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/page-title/page-title.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

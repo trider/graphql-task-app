@@ -1,0 +1,31 @@
+// 
+// coming-soon.scss
+//
+
+.counter-number {
+    font-size: 32px !important;
+    font-weight: $font-weight-bold !important;
+    color: $white !important;
+    .coming-box {
+    float: left !important;
+    width: 25% !important;
+        span {
+            font-size: 15px !important;
+            font-weight: $font-weight-normal !important;
+            display: block !important;
+        }
+    }
+}
+
+
+
+.svg-rocket {
+    height: 80px;
+}
+
+.rocket-clouds__bubble,
+.rocket-clouds__cloud,
+.rocket-rocket,
+.rocket-inner__rocket-and-lines {
+    fill: $white;
+}

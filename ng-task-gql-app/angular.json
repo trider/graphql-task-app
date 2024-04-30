@@ -1,0 +1,197 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "task-app-fe": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "en": "src/locale/messages.xlf",
+          "he": "src/locale/messages.he.xlf"
+        }
+      },
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "localize": false,
+            "aot": true,
+            "outputPath": "dist/task-app-fe",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "tsConfig": "tsconfig.app.json",
+            "polyfills": "src/polyfills.ts",
+            "allowedCommonJsDependencies": [
+              "core-js",
+              "ngx-lightbox",
+              "chart.js",
+              "raf",
+              "export",
+              "xlsx",
+              "export.js",
+              "pdfmake",
+              "pdfmake.js",
+              "lodash",
+              "zen-observable",
+              "apollo-link-persisted-queries",
+              "graphql-tag",
+              "core-js",
+              "valor-software-ng2-charts",
+              "ngx-export-as",
+              "angular-archwizard",
+              "braid-client",
+              "jquery",
+              "jquery-mapael",
+              "chart.js",
+              "ng-click-outside",
+              "html2pdf",
+              "apexcharts",
+              "polylabel",
+              "ng2-pdf-viewer",
+              "html2pdf.js",
+              "@babel/runtime",
+              "@babel/runtime/helpers/get",
+              "@babel/runtime/helpers/slicedToArray",
+              "@babel/runtime/regenerator",
+              "@babel/runtime/helpers/toConsumableArray",
+              "@babel/runtime/helpers/inherits",
+              "@babel/runtime/helpers/possibleConstructorReturn",
+              "ngx-lightbox",
+              "rxjs/operators",
+              "rxjs/Subject",
+              "rxjs/Subscription",
+              "chartist",
+              "codemirror",
+              "ng5-slider",
+              "showdown",
+              "rgbcolor",
+              "sweetalert2",
+              "marked",
+              "prismjs",
+              "quill",
+              "can-use-dom",
+              "vfs_fonts",
+              "feather-icons",
+              "jsvectormap"
+            ],
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/assets/scss/Default.scss",
+              "src/assets/scss/icons.scss"
+            ],
+            "scripts": [
+              "node_modules/apexcharts/dist/apexcharts.min.js",
+              "node_modules/mammoth/mammoth.browser.min.js"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "25mb",
+                  "maximumError": "30mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "4kb",
+                  "maximumError": "5kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "en": {
+              "localize": ["en-US"]
+            },
+            "he": {
+              "localize": ["he"]
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": false,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "task-app-fe:build",
+            "proxyConfig": "proxy.conf.json",
+            "port": 4201
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "task-app-fe:build:production",
+              "proxyConfig": "proxy.conf.json",
+              "port": 4201
+            },
+            "development": {
+              "browserTarget": "task-app-fe:build:development"
+            },
+           
+            "en": {
+              "browserTarget": "task-app-fe:build:en"
+            },
+            "he": {
+              "browserTarget": "task-app-fe:build:he"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "task-app-fe:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.scss"
+            ],
+            "scripts": []
+          }
+        }
+      }
+    }
+  }
+}
