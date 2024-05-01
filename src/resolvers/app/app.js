@@ -6,7 +6,7 @@ const resolvers = {
  Query: {
 
   appQuery: async (parent, args, { dataSources }, context) => {
-
+   console.log(args)
    if (args.api === 'tasks') {
     return tasks.Query[args.command](parent, args, { dataSources }, context)
    }

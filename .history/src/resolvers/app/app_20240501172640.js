@@ -1,17 +1,12 @@
 const tasks = require('../tasks/tasks')
 const users = require('../users/users')
 
-
-const member = require('../member/member')
-
-
-
 const resolvers = {
 
  Query: {
 
-  appRead: async (parent, args, { dataSources }, context) => {
-
+  appQuery: async (parent, args, { dataSources }, context) => {
+   console.log(args)
    if (args.api === 'tasks') {
     return tasks.Query[args.command](parent, args, { dataSources }, context)
    }
@@ -26,7 +21,9 @@ const resolvers = {
 
 
  Mutation: {
+
   appRun: async (parent, args, { dataSources }, context) => {
+   console.log(args)
    if (args.api === 'tasks') {
     return tasks.Mutation[args.command](parent, args, { dataSources }, context)
    }
