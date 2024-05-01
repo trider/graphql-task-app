@@ -12,7 +12,7 @@ const tasks = {
     getTasks: async (parent, args, { dataSources }, context) => {
       const getData = new Promise((resolve) => {
         dataSources.mongoAPI.getItemsData(
-          { db: 'tasksDB', collection: 'tasks', query: { user: args.payload.user, isActive:true } }
+          { db: 'tasksDB', collection: 'tasks', query: { user: args.payload.user } }
         ).then((data, err) => resolve(data))
       }).then((data) => {
         return data
