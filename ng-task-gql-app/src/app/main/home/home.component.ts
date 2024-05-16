@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Apollo, gql, QueryRef } from 'apollo-angular';
 import { AppQuery, AppRun } from 'src/app/services/appService/schema/schema';
 import { Subscription } from 'rxjs';
+import { GlobalVariables } from 'src/app/common/global-variables';
 
 @Component({
   selector: 'app-home',
@@ -10,18 +11,17 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
+  @Input()
+  appVersion:string = GlobalVariables.appVersion;
   showNav: boolean = false;
   tableCols: any = [
-    'taskId',
     'name',
     'description',
-    'user',
     'added',
     'updated',
     'status',
-    'isActive',
   ];
-  
+  currentYear!: number;
   qry: QueryRef<any>;
   private querySubscription: Subscription;
   tasks: any = null
@@ -32,7 +32,9 @@ export class HomeComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     private apollo: Apollo,
-  ) {}
+  ) {
+    this.currentYear = Date.now();
+  }
   ngOnInit(): void {
 
     this.qry = this.apollo.watchQuery<any>({

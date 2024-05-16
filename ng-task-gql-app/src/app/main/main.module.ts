@@ -6,6 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { ComponentsModule } from '../components/components.module';
 
 
 
@@ -15,13 +16,13 @@ import { LoginComponent } from './login/login.component';
     HomeComponent,
   ],
   imports: [
-
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
     MainRoutingModule,
     NgbModule,
-    NgbNavModule
+    NgbNavModule,
+    ComponentsModule
   ]
 })
 export class MainModule { }
