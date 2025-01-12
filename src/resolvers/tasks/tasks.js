@@ -23,7 +23,7 @@ const tasks = {
     getTask: async (parent, args, { dataSources }, context) => {
       const getData = new Promise((resolve) => {
         dataSources.mongoAPI.getItemData(
-          { db: 'tasksDB', collection: 'tasks', query: { "_id": ObjectID(args.payload.id) } }
+          { db: 'tasksDB', collection: 'tasks', query: { taskId:1} }
         ).then((data, err) => resolve(data))
       }).then((data) => {
         return data
@@ -31,10 +31,6 @@ const tasks = {
       })
       return getData.then(data => data).catch((err) => console.log(err))
     },
-
-
-
-
 
   },
   Mutation: {

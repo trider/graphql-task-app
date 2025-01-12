@@ -1,15 +1,13 @@
 const config = require('../../config/config.json')
 const { MongoClient, ObjectId } = require("mongodb");
-// const uri = "mongodb://localhost:27017/";
-const uri = config.urlMongo
+const uri = config.urlMongo;
 
-const fetch = require('node-fetch');
 
 
 const {
   RESTDataSource
 } = require('apollo-datasource-rest');
-const { ObjectID } = require("bson");
+
 
 
 class MongoAPI extends RESTDataSource {
@@ -24,11 +22,10 @@ class MongoAPI extends RESTDataSource {
     const database = client.db(args.db);
     const data = database.collection(args.collection);
     const resp = await data.findOne(args.query).then(res => {
-      //console.log(res);
       return res
     }).catch(error => {
-      //console.log(error)
-      return {status:error}
+      console.log(error)
+      // return {status:error}
     });
     await client.close()
     return resp

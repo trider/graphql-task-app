@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 const { ApolloServer } = require('apollo-server');
+// // const { createServer } = require('createServer');
+// const { execute, subscribe } = require('graphql');
+// const { SubscriptionServer } = require('subscriptions-transport-ws') ;
+// const { makeExecutableSchema } = require('@graphql-tools/schema') ;
 const typeDefs = require('./schema/schema');
 const resolvers = require('./resolvers')
 const dataSources = require('./datasources')
@@ -12,8 +16,8 @@ const server = new ApolloServer({
 	typeDefs,  
 	resolvers,
 	dataSources: dataSources,
-	context: ({ req }) => {}
- });
+	context: ({ req }) => {}}
+);
 
 
 
